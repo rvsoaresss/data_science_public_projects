@@ -1,0 +1,12 @@
+1-A
+2- import numpy as np
+array = np.arange(2,9).reshape(2,4)
+new_array = np.arange(2,9).reshape(4,2)
+3-B
+4-C
+5-D
+6-A
+7-C
+8-B
+9-o(nlogn) porque utiliza recursão
+10- o(n), o(n2), o(n2) porque utiliza dois for's

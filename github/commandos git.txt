@@ -1,0 +1,45 @@
+SSH
+git@github.com:rvsoaresss/python.git
+
+or create a new repository on the command line
+echo "# python" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:rvsoaresss/python.git
+git push -u origin main
+
+
+or push an existing repository from the command line
+git remote add origin git@github.com:rvsoaresss/python.git
+git branch -M main
+git push -u origin main
+
+verificar historico de commits realizados no repositorio local
+git shortlog
+
+encontrar ssh
+C:\Users\soaresdo\.ssh\id_rsa.pub
+
+
+git init (cria um repositorio local)
+git add . (salva o conteudo antes do commit em uma especie de staging area)
+git commit -m "first commit" (salva o conteudo no repositorio local)
+git remote add origin git@github.com:rvsoaresss/data_science_private_projects.git
+git push
+clear
+git push origin master
+
+
+
+
+git remote
+git remote -v
+git push -u origin main
+
+
+git log --oneline
+git rebase -i HEAD~2
+ESC:WQ
+

@@ -1,0 +1,13 @@
+criação ambiente virtual
+conda create -n Hashtag_Programacao python=3.8
+Proceed: escrever y
+conda activate Hashtag_Programacao
+clicar sobre icone Python 3.8.12 no canto inferior esquerdo
+selecionar ambiente virtual criado
+clicar na lixeira para fechar terminal
+abrir novo terminal
+
+instalat api googlesheets
+copiar no terminal   pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+pip install -U autopep8 (recomenado pelo vscode)
+fechei e abri novamente o vscode para reconhecer as bibliotecas do google
